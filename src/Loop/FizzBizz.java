@@ -11,14 +11,14 @@ public class FizzBizz {
         int num =50;
         for(int i =1; i<=num; i++)
         {
-            if(i%2==0){
-                System.out.println(i +" FIZZ");
+            if(i%2==0 && i%5==0){
+                System.out.println(i +" FIZZBuzz");
             }
             else if(i%5==0) {
                 System.out.println(i +" Buzz");
             }
-            else if (i%2==0 && i%5==0){
-                System.out.println(i +" FizzBuzz");
+            else if (i%2==0) {
+                System.out.println(i +" Fizz");
                 }
             else{
                 System.out.println(i);

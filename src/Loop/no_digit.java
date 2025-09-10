@@ -8,11 +8,10 @@ public class no_digit {
 
         while(num>0)
         {
-            if(num%10!=0)
-            {
+
                 digit++;
                 num = num/10;
-            }
+
         }
         System.out.println(digit);
 
