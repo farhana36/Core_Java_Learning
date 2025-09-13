@@ -6,12 +6,8 @@ public class noofdigit {
         int count =0;
         while (num>0)
         {
-            if(num%10!=0)
-            {
-                num=num/10;
-                count ++;
-            }
-
+            count ++;
+            num=num/10;
         }
         System.out.print(count);
     }
