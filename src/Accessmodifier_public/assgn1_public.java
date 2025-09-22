@@ -11,7 +11,11 @@ public class assgn1_public {
         System.out.println("public");
 
     }
-    public static void m01(){
+
+
+    public static void m01()
+    {
         System.out.println("Within same class");
     }
+
 }
